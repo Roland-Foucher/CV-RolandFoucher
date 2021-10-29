@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>Contact Roland Foucher</title>
+	<link rel="stylesheet" type="text/css" href="css/CSS_FORMULAIRE.css">
+</head>
+<body>
+<div id=full_page>
+	<header	> <!--entete-->
+		<img src="content/photo_RF3.png" alt="photo identité"/>
+		<div id=bloc_left>
+			<h1>Roland Foucher</h1>
+			<h2>TECHNICIEN INFORMATIQUE<br/> ET MEDIASERVEUR</h2>
+		</div>
+	</header>
+
+	<main>
+	<form method="post" action="traitement.php">
+		<fieldset>
+			<legend>Vos Coordonnées</legend>
+			<p><label for=nom>Nom : </label><input type="text" name="Nom" id="nom" placeholder="ex: Dupond" autofocus required /></p>
+
+			<p><label for=Prénom>Prénom : </label><input type="text" name="Prenom" id="prenom" placeholder="ex: Jean" required /></p>
+
+			<p><label for=mail>Mail : </label><input type="email" name="Mail" id="mail" size="50" placeholder="ex: jean@jean.net" required /></p>
+			<p><label for="Pays">Pays : </label>
+				<select name=Paye id=paye>
+					<option value="france">France</option>
+           			<option value="espagne">Espagne</option>
+           			<option value="italie">Italie</option>
+           			<option value="royaume-uni">Royaume-Uni</option>
+      				<option value="canada">Canada</option>
+          			<option value="etats-unis">États-Unis</option>
+        			<option value="chine">Chine</option>
+           			<option value="japon">Japon</option>
+				</select></p>
+		</fieldset>
+		<fieldset>
+			<legend>Votre Méssage</legend>
+			
+			<textarea name="message" id="message" required>Ceci est un formulaire fictif pour test</textarea>
+		</fieldset>
+		<p><input type="submit" name="submit" value="Envoyer"></p>
+
+	</form>
+	</main>
+	<footer>
+		<p>Retour au CV en ligne : <a href="CV_ROLAND_FOUCHER.html"> CV Roland Foucher </a> </p>		
+		<p>Telechager le CV en PDF : <a href="content/CV_ROLAND_FOUCHER.pdf" target="_blanck"> CV de Roland Foucher</a>
+		<p> Accès au formulaire de contact (fictif) : <a href="Formulaire.html">Formulaire de Contact </a></p>
+		<p>Une petite compo Smode?? : <a href="Vidéo_Smode.html">Compo Smode</a>
+	</footer>
+</div>
+</body>
+</html>
