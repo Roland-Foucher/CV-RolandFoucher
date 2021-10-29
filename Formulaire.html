@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width" />
 	<title>Contact Roland Foucher</title>
 	<link rel="stylesheet" type="text/css" href="css/CSS_FORMULAIRE.css">
+	<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
 </head>
 <body>
 <div id=full_page>
@@ -17,7 +18,7 @@
 	</header>
 
 	<main>
-	<form method="post" action="traitement.php">
+	<form id= 'sendMessage'> 
 		<fieldset>
 			<legend>Vos Coordonnées</legend>
 			<p><label for=nom>Nom : </label><input type="text" name="Nom" id="nom" placeholder="ex: Dupond" autofocus required /></p>
@@ -52,5 +53,7 @@
 		<p> Accès au formulaire de contact (fictif) : <a href="Formulaire.html">Formulaire de Contact </a></p>
 	</footer>
 </div>
-</body>
+
+
+<script src="./script/Jquery.js"></script>
 </html>
