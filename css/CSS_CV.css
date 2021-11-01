@@ -1,16 +1,18 @@
-#fullpage
-{
+
+body{
 	background: url(../content/base2.png) no-repeat ;
 	background-size: 960px;
-
+}
 	
-
+#fullpage{
 	width: 1024px;
 	margin: auto;
 	font-family: Century Gothic, arial, sans-serif;
 
 }	
 /*css entete*/
+
+
 header
 {
 	display: flex;
