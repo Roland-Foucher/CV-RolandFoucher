@@ -1,0 +1,22 @@
+video
+{
+	display: block;
+	margin: 40px auto 0px auto;	
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px)
+{
+	#full_page
+	{
+		width: auto;
+	}
+	
+	header img
+	{
+		display: none;
+	}
+	video
+	{
+		width: 99%;
+	}
+}

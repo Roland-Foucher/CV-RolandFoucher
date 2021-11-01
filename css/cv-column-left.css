@@ -1,0 +1,36 @@
+aside
+{
+	background-color: rgba(0, 50, 0, 0.2);
+	box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 10px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;		 
+}
+aside ul
+{
+	list-style: none;
+	text-align: justify;
+}
+.saut_ligne
+{
+	margin-bottom: 1em;
+}
+aside img
+{
+	width: 20px;
+}
+aside h2
+{
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+aside h1
+{
+	font-size: 1.3em
+}

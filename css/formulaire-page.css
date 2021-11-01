@@ -1,0 +1,28 @@
+fieldset
+{
+	margin-top: 25px;
+}
+textarea
+{
+	width: 500px;
+	height: 200px;
+}
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px)
+{
+	#full_page
+	{
+		width: auto;
+	}
+	
+	header img
+	{
+		display: none;
+	}
+}
