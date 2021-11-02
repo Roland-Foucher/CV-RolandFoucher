@@ -1,5 +1,6 @@
 $(document).ready(() =>
-    $("#fullpage").addClass("load")
+    setTimeout(function(){$("#fullpage").addClass("load")}, 2000)
+    
 )
 const $closeButton = $(".close_aside")
 const $openButton = $(".open_aside")
