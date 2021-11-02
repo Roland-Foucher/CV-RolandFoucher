@@ -1,3 +1,16 @@
+.close_aside
+{
+	width : 20%;
+	margin-left: 80%;
+	
+}
+.open_aside
+{
+	width: 62px;
+	height: 18px;
+	opacity : 0;
+	
+}
 aside
 {
 	background-color: rgba(0, 50, 0, 0.2);
