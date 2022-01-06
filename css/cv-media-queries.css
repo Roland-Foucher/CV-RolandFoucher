@@ -31,15 +31,13 @@
 		background-color: rgba(0, 50, 0, 0.2);
 		box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding : 20px
 	}
 	#experiences
 	{
 		background-color: rgba(0, 50, 0, 0.2);
 		box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding : 20px
 	}
 }
